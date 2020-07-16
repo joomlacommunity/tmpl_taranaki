@@ -1,1 +1,1 @@
-# tmpl_viinx
+# Taranaki Joomla Administrator template
