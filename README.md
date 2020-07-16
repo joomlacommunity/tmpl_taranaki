@@ -1,1 +1,1 @@
-# Taranaki Joomla Administrator template
+# Taranaki Joomla Administrator Template
