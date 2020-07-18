@@ -1,0 +1,17 @@
+#status {
+    @apply p-6;
+}
+
+#status .btn-toolbar {
+    @apply flex flex-col;
+}
+
+#status .btn-toolbar .btn-group {
+    @apply w-full my-1 p-2 bg-gray-700 text-gray-400 text-xs;
+}
+
+#status [class^="icon-"], 
+#status [class*=" icon-"],
+#status span {
+    @apply mr-1;
+}
