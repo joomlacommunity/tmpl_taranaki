@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension type="template" version="3.1" client="administrator">
+	<name>taranaki</name>
+	<creationDate>May 2010</creationDate>
+	<author>Shayne Bartlett</author>
+	<authorEmail>admin@taranaki.org</authorEmail>
+	<copyright>Copyright (C) 2020 Shayne Bartlett. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>3.0.0</version>
+	<description>TPL_TARANAKI_XML_DESCRIPTION</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>cpanel.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>login.php</filename>
+		<filename>LICENSE.txt</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+	</files>
+
+	<positions>
+		<position>menu</position>
+		<position>submenu</position>
+		<position>toolbar</position>
+		<position>title</position>
+		<position>status</position>
+		<position>icon</position>
+		<position>cp_shell</position>
+		<position>cpanel</position>
+		<position>quicklinks</position>
+		<position>login</position>
+		<position>debug</position>
+		<position>footer</position>
+	</positions>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.tpl_taranaki.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.tpl_taranaki.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="showSiteName" type="radio" label="TPL_TARANAKI_SHOW_SITE_NAME_LABEL" description="TPL_TARANAKI_SHOW_SITE_NAME_DESC" class="btn-group btn-group-yesno" default="0">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field name="logoFile" type="media" label="TPL_TARANAKI_LOGO_LABEL" description="TPL_TARANAKI_LOGO_DESC" class="" default="" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

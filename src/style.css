@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@import "joomla.css";
+@import "components/table.css";
+@import "components/bootstrap.css";
+@import "components/alerts.css";
+@import "components/tootips.css";
+@import "components/status.css";
+@import "components/cpanel.css";
+@import "components/form.css";
+/* @import "components/chosen.css"; */
+@tailwind utilities; 
+
+
+

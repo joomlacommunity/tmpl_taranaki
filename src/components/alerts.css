@@ -1,0 +1,56 @@
+/* ALERTS */
+
+.alert {
+    @apply flex relative;
+}
+
+.alert .close {
+        @apply  w-8 font-bold;
+}
+
+.alert h4 {
+        @apply w-48 font-bold;
+}
+
+.alert div {
+    @apply w-auto ;
+}
+
+
+.alert .close {
+    @apply relative cursor-pointer;
+    /* top: -2px;
+    right: -21px; */
+}
+
+.alert-success {
+    @apply bg-teal-100  border-teal-500  text-teal-900  border-t-4  rounded-b w-full px-4 py-3 shadow-md;
+}
+.alert-success h4 {
+    @apply text-teal-500;
+}
+
+.alert-danger,
+.alert-error {
+    @apply bg-red-100 border-red-400 text-red-700 border-t-4  rounded-b w-full px-4 py-3 shadow-md;
+}
+.alert-danger h4,
+.alert-error h4 {
+    @apply text-red-500;
+}
+
+.alert-info {
+    @apply border-blue-300  text-blue-900  ;
+}
+.alert-info h4 {
+    @apply text-blue-500;
+}
+
+
+.alert {
+    @apply text-sm mb-4 border-t-4 bg-gray-200 rounded-b w-full px-4 py-3 shadow-sm;
+}
+
+.alert p {
+    @apply mt-2 mb-2;
+}

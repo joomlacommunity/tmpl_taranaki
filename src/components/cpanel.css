@@ -1,0 +1,7 @@
+.cpanel h2 {
+    @apply text-base font-semibold mb-4 text-orange-400;
+}
+
+.cpanel .row-fluid {
+    @apply flex flex-col;
+}

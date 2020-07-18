@@ -1,0 +1,277 @@
+.btn {
+  @apply text-white font-light text-xs mx-1 my-2 py-1 px-2 rounded;
+}
+
+.btn {
+  @apply bg-gray-600;
+}
+
+.btn-success, .button-edit, .button-batch {
+  @apply bg-blue-700;
+}
+
+.btn-success:hover, .button-edit:hover {
+  @apply bg-blue-400 border-blue-500;
+}
+
+.button-save, .button-save-new, .button-publish {
+  @apply bg-green-500;
+}
+
+.button-save:hover, .button-save-new:hover, .button-publish:hover {
+  @apply bg-green-300;
+}
+
+.button-cancel, .button-unpublish, .button-delete {
+  @apply bg-red-700;
+}
+
+.btn-toolbar {
+  @apply inline-flex;
+}
+
+.hide {
+  @apply hidden;
+}
+
+.com_cpanel>.row-fluid {
+  @apply flex;
+  @apply p-6;
+}
+
+.row-fluid .row-fluid {
+  @apply flex flex-row;
+  @apply px-2 py-0;
+}
+
+/* .span2 {
+  @apply w-2/12;
+} */
+
+.span3 {
+  @apply w-3/12;
+}
+
+.span4 {
+  @apply w-4/12;
+}
+
+.span5 {
+  @apply w-5/12;
+}
+
+.span6 {
+  @apply w-1/2;
+}
+
+.span7 {
+  @apply w-7/12;
+}
+
+
+.span8 {
+  @apply w-8/12;
+}
+
+.span9 {
+  @apply w-9/12;
+}
+
+.span10 {
+  @apply w-10/12;
+}
+
+.span12 {
+  @apply w-full;
+}
+
+.alert .close {
+  @apply relative cursor-pointer;
+  /* top: -2px;
+    right: -21px; */
+}
+
+.alert-success {
+  @apply bg-teal-100 border-teal-500 text-teal-900 border-t-4 rounded-b w-full px-4 py-3 shadow-md;
+}
+
+.alert-success h4 {
+  @apply text-teal-500;
+}
+
+.alert-danger, .alert-error {
+  @apply bg-red-100 border-red-400 text-red-700 border-t-4 rounded-b w-full px-4 py-3 shadow-md;
+}
+
+.alert-danger h4, .alert-error h4 {
+  @apply text-red-500;
+}
+
+.alert-info {
+  @apply border-blue-300 text-blue-900;
+}
+
+.alert-info h4 {
+  @apply text-blue-500;
+}
+
+.alert {
+  @apply text-sm mb-4 border-t-4 bg-gray-200 rounded-b w-full px-4 py-3 shadow-sm;
+}
+
+.alert p {
+  @apply mt-2 mb-2;
+}
+
+/* Arrows */
+
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1010;
+  display: none;
+  max-width: 276px;
+  padding: 1px;
+  text-align: left;
+  white-space: normal;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+.popover.top {
+  margin-top: -10px;
+}
+
+.popover.right {
+  margin-left: 10px;
+}
+
+.popover.bottom {
+  margin-top: 10px;
+}
+
+.popover.left {
+  margin-left: -10px;
+}
+
+.popover-title {
+  padding: 8px 14px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+
+.popover-title:empty {
+  display: none;
+}
+
+.popover-content {
+  padding: 9px 14px;
+}
+
+.popover .arrow, .popover .arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.popover .arrow {
+  border-width: 11px;
+}
+
+.popover .arrow:after {
+  border-width: 10px;
+  content: "";
+}
+
+.popover.top .arrow {
+  bottom: -11px;
+  left: 50%;
+  margin-left: -11px;
+  border-top-color: #999;
+  border-top-color: rgba(0, 0, 0, 0.25);
+  border-bottom-width: 0;
+}
+
+.popover.top .arrow:after {
+  bottom: 1px;
+  margin-left: -10px;
+  border-top-color: #ffffff;
+  border-bottom-width: 0;
+}
+
+.popover.right .arrow {
+  top: 50%;
+  left: -11px;
+  margin-top: -11px;
+  border-right-color: #999;
+  border-right-color: rgba(0, 0, 0, 0.25);
+  border-left-width: 0;
+}
+
+.popover.right .arrow:after {
+  bottom: -10px;
+  left: 1px;
+  border-right-color: #ffffff;
+  border-left-width: 0;
+}
+
+.popover.bottom .arrow {
+  top: -11px;
+  left: 50%;
+  margin-left: -11px;
+  border-bottom-color: #999;
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+  border-top-width: 0;
+}
+
+.popover.bottom .arrow:after {
+  top: 1px;
+  margin-left: -10px;
+  border-bottom-color: #ffffff;
+  border-top-width: 0;
+}
+
+.popover.left .arrow {
+  top: 50%;
+  right: -11px;
+  margin-top: -11px;
+  border-left-color: #999;
+  border-left-color: rgba(0, 0, 0, 0.25);
+  border-right-width: 0;
+}
+
+.popover.left .arrow:after {
+  right: 1px;
+  bottom: -10px;
+  border-left-color: #ffffff;
+  border-right-width: 0;
+}
+
+.tab-pane .row-fluid {
+  @apply flex;
+}
+
+.form-vertical {
+  @apply px-4;
+}
